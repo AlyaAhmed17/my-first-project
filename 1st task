@@ -1,0 +1,74 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOcgGVQkXW3VQv5jxdFeoC7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AlyaAhmed17/my-first-project/blob/main/1st%20task\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Give me your name\")\n",
+        "name='alya'\n",
+        "input()\n",
+        "print(\"How old are you?\")\n",
+        "age=10\n",
+        "input()\n",
+        "print(\"What do you do?\")\n",
+        "job='student'\n",
+        "input()\n",
+        "print(\"accepeted\",name)\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "DxpdaJfybwBc",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "outputId": "0c04a39f-e650-4d6e-db69-aad136995e24"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Give me your name\n",
+            "alya\n",
+            "How old are you?\n",
+            "10\n",
+            "What do you do?\n",
+            "stu\n",
+            "accepeted alya\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
