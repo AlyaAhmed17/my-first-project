@@ -1,0 +1,81 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNqb3ukH3NSwvMuAKW1Rn35",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AlyaAhmed17/my-first-project/blob/main/Task%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "country = str (input(\"Country \"))\n",
+        "#if country == \"uk\" or \"united states\" or \"turkey\" or \"sudan\":\n",
+        "\n",
+        "if country == \"uk\":\n",
+        "  print(\"Welcom to the UK\")\n",
+        "\n",
+        "elif country==\"united states\":\n",
+        "  print(\"Welcom to the United States\")\n",
+        "\n",
+        "elif country==\"turkey\":\n",
+        " print(\"Hoş Geldiniz\")\n",
+        "\n",
+        "elif country==\"sudan\":\n",
+        "  print(\"اهلا وسهلا بك في السودان\")\n",
+        "\n",
+        "  if country == \"sudan\":\n",
+        "    print(\"أين تعيش في السودان؟\")\n",
+        "    state = str (input(\"الولاية \"))\n",
+        "  if state == \"الخرطوم\" or state== \"بورتسودان\":\n",
+        "    print(\"حبابك عشرة\")\n",
+        "  else:\n",
+        "    print(\"اهلا وسهلا\")\n",
+        "\n",
+        "else:\n",
+        "    print(\"You're Welcom\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xqBfRE1EBR-T",
+        "outputId": "9f72d011-f7c1-4b3a-b69d-e9e6a0eee6ff"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Country sudan\n",
+            "اهلا وسهلا بك في السودان\n",
+            "أين تعيش في السودان؟\n",
+            "الولاية l\n",
+            "اهلا وسهلا\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
